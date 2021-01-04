@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    height: 500px;
+    padding-bottom: 120px;
+}
+.container{
+    background-image: url("../img/bnr.png");
+    background-repeat: no-repeat;
+    
+    
+}
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 35px;
+    margin: 10px 0px;
+}
+h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
+span{
+    color: darkorange;
+    font-size: 45px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700; 
+}
+.half-width h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    color: darkorange; 
+    font-size: 15px;
+}
+.dream{
+    background-image: url("../img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.button{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.experiences{
+    background-image: url("../img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.experiences h1{
+    text-align: center;
+}
+.single-experiences{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, #7303c0, #ec38bc, #fdeff9);
+    border-image-slice: 1;
+}
+#front-end{
+    border-left: 7px solid;
+    border-image: linear-gradient(to top, #fc4a1a, #f7b733);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
